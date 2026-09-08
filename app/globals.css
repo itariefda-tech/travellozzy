@@ -349,6 +349,9 @@ a {
 .mobile-menu__book { margin-top: auto; }
 
 .section { padding-block: clamp(4.5rem, 9vw, 8rem); }
+.fleet-page-hero { padding: 10rem 0 4.5rem; background: var(--color-brand-navy); color: var(--color-brand-white); }
+.fleet-page-hero h1 { margin: .6rem 0 .8rem; font-size: clamp(3rem, 7vw, 5rem); letter-spacing: -.06em; line-height: .95; }
+.fleet-page-hero p:last-child { max-width: 42rem; margin: 0; color: rgb(248 249 250 / 70%); }
 .section--white { background: var(--color-brand-white); }
 .section--cream { background: var(--color-brand-cream); }
 .section--navy { background: var(--color-brand-navy); color: var(--color-brand-white); }
@@ -440,6 +443,7 @@ a {
 .fleet-card__footer { display: flex; align-items: center; justify-content: space-between; margin-top: 1rem; padding-top: .9rem; border-top: 1px solid var(--color-brand-border); font-size: .78rem; }
 .fleet-card__footer a { display: inline-flex; align-items: center; gap: .3rem; font-weight: 750; }
 .fleet-card__footer svg { width: 1rem; }
+.fleet-view-all { display: inline-flex; align-items: center; gap: .35rem; margin-top: 1.5rem; }
 .empty-state { border: 1px dashed var(--color-brand-border); border-radius: 1.35rem; padding: 2rem; text-align: center; }
 
 .package-card { min-height: 25rem; display: flex; flex-direction: column; border: 1px solid rgb(248 249 250 / 12%); border-radius: 1.35rem; background: rgb(248 249 250 / 5%); padding: 1.4rem; }

@@ -1,8 +1,8 @@
-# TRAVELOZZY — BLUEPRINT
+# TRAVELOZY — BLUEPRINT
 
 ## 1. Document Purpose
 
-Dokumen ini adalah blueprint utama untuk desain, UX, content strategy, dan struktur landing page website **TRAVELOZZY**.
+Dokumen ini adalah blueprint utama untuk desain, UX, content strategy, dan struktur landing page website **TRAVELOZY**.
 
 Blueprint ini menjadi sumber acuan utama untuk:
 
@@ -32,7 +32,7 @@ Dokumen ini **bukan roadmap implementasi**. Progress development akan dikelola t
 
 ## Brand Name
 
-**TRAVELOZZY**
+**TRAVELOZY**
 
 ## Main Tagline
 
@@ -44,9 +44,9 @@ Dokumen ini **bukan roadmap implementasi**. Progress development akan dikelola t
 
 ## Brand Positioning
 
-TRAVELOZZY tidak diposisikan hanya sebagai rental mobil.
+TRAVELOZY tidak diposisikan hanya sebagai rental mobil.
 
-TRAVELOZZY adalah:
+TRAVELOZY adalah:
 
 > **Mobility & Travel Service**
 
@@ -67,7 +67,7 @@ Positioning utama:
 
 > **Affordable Premium**
 
-Artinya TRAVELOZZY:
+Artinya TRAVELOZY:
 
 - tidak tampil sebagai rental murah;
 - tetap menyediakan kendaraan reguler;
@@ -78,7 +78,7 @@ Artinya TRAVELOZZY:
 
 Prinsip inti:
 
-> **TRAVELOZZY tidak hanya menjual mobil. TRAVELOZZY menjual solusi perjalanan.**
+> **TRAVELOZY tidak hanya menjual mobil. TRAVELOZY menjual solusi perjalanan.**
 
 Customer biasanya tidak datang dengan pikiran:
 
@@ -100,7 +100,7 @@ Website harus mengikuti **cara customer berpikir**, bukan cara rental menyusun g
 
 # 3. Brand Personality
 
-Karakter visual dan komunikasi TRAVELOZZY:
+Karakter visual dan komunikasi TRAVELOZY:
 
 - Modern
 - Premium
@@ -113,7 +113,7 @@ Karakter visual dan komunikasi TRAVELOZZY:
 - Confident
 - Conversion-Focused
 
-TRAVELOZZY harus terasa premium namun tetap approachable.
+TRAVELOZY harus terasa premium namun tetap approachable.
 
 Bukan terlalu formal seperti perusahaan limousine murni.
 
@@ -127,27 +127,27 @@ Tone yang diinginkan:
 
 # 4. Primary Business Pillars
 
-TRAVELOZZY dibangun atas tujuh pilar layanan utama:
+TRAVELOZY dibangun atas tujuh pilar layanan utama:
 
-1. **TRAVELOZZY Event**
-2. **TRAVELOZZY Vacation**
-3. **TRAVELOZZY Transfer**
-4. **TRAVELOZZY Daily**
-5. **TRAVELOZZY Business**
-6. **TRAVELOZZY Luxury**
-7. **TRAVELOZZY Group**
+1. **TRAVELOZY Event**
+2. **TRAVELOZY Vacation**
+3. **TRAVELOZY Transfer**
+4. **TRAVELOZY Daily**
+5. **TRAVELOZY Business**
+6. **TRAVELOZY Luxury**
+7. **TRAVELOZY Group**
 
 Landing page harus membantu customer memilih berdasarkan **kebutuhan perjalanan**, bukan hanya berdasarkan tipe mobil.
 
 ---
 
-# 5. TRAVELOZZY Event
+# 5. TRAVELOZY Event
 
 ## Positioning
 
 > **Every special moment deserves a special journey.**
 
-TRAVELOZZY Event menyediakan kendaraan untuk acara pribadi maupun profesional.
+TRAVELOZY Event menyediakan kendaraan untuk acara pribadi maupun profesional.
 
 ## Wedding
 
@@ -261,7 +261,7 @@ Konsep:
 
 ---
 
-# 6. TRAVELOZZY Vacation
+# 6. TRAVELOZY Vacation
 
 ## Positioning
 
@@ -410,7 +410,7 @@ Potensi produk:
 
 ---
 
-# 7. TRAVELOZZY Transfer
+# 7. TRAVELOZY Transfer
 
 ## Positioning
 
@@ -510,7 +510,7 @@ kategori ini dapat berkembang menjadi cargo ringan.
 
 ---
 
-# 8. TRAVELOZZY Daily
+# 8. TRAVELOZY Daily
 
 ## Positioning
 
@@ -552,7 +552,7 @@ Potensi pilihan:
 
 ---
 
-# 9. TRAVELOZZY Business
+# 9. TRAVELOZY Business
 
 ## Positioning
 
@@ -612,7 +612,7 @@ Layanan dapat mencakup:
 
 ---
 
-# 10. TRAVELOZZY Luxury
+# 10. TRAVELOZY Luxury
 
 ## Positioning
 
@@ -664,7 +664,7 @@ Potensi mode:
 
 ---
 
-# 11. TRAVELOZZY Group
+# 11. TRAVELOZY Group
 
 Kendaraan:
 
@@ -755,7 +755,7 @@ Contoh:
 
 # 13. Rental Models
 
-TRAVELOZZY dapat menyediakan:
+TRAVELOZY dapat menyediakan:
 
 - Self Drive;
 - Car + Driver;
@@ -773,7 +773,7 @@ Untuk luxury:
 
 Website tidak hanya menjual kendaraan.
 
-TRAVELOZZY menjual **paket berdasarkan kebutuhan**.
+TRAVELOZY menjual **paket berdasarkan kebutuhan**.
 
 Contoh:
 
@@ -923,7 +923,7 @@ Pengembangan:
 
 Konsep:
 
-> **TRAVELOZZY Partner**
+> **TRAVELOZY Partner**
 
 Target:
 
@@ -949,7 +949,7 @@ Potensi benefit:
 
 Konsep potensial:
 
-> **TRAVELOZZY Member**
+> **TRAVELOZY Member**
 
 Benefit:
 
@@ -961,7 +961,7 @@ Benefit:
 
 Potensi nama reward:
 
-> **TRAVELOZZY Miles**
+> **TRAVELOZY Miles**
 
 ---
 
@@ -1017,7 +1017,7 @@ Target pemahaman:
 
 Dalam 5–10 detik visitor harus memahami:
 
-> TRAVELOZZY menyediakan kendaraan reguler hingga luxury untuk daily, airport, vacation, wedding, corporate, dan group transportation.
+> TRAVELOZY menyediakan kendaraan reguler hingga luxury untuk daily, airport, vacation, wedding, corporate, dan group transportation.
 
 ---
 
@@ -1073,7 +1073,7 @@ Contoh:
 
 Desktop:
 
-> Dari perjalanan harian hingga momen istimewa, TRAVELOZZY menyediakan kendaraan reguler, premium, luxury dan group transportation untuk setiap perjalanan Anda.
+> Dari perjalanan harian hingga momen istimewa, TRAVELOZY menyediakan kendaraan reguler, premium, luxury dan group transportation untuk setiap perjalanan Anda.
 
 Mobile:
 
@@ -1164,7 +1164,7 @@ LUXURY EXPERIENCE
 ↓
 VACATION DESTINATIONS
 ↓
-WHY TRAVELOZZY
+WHY TRAVELOZY
 ↓
 HOW IT WORKS
 ↓
@@ -1191,7 +1191,7 @@ FOOTER
 
 Left:
 
-> **TRAVELOZZY**
+> **TRAVELOZY**
 
 Center navigation:
 
@@ -1225,13 +1225,13 @@ Group Transport
 Header:
 
 ```text
-TRAVELOZZY        ☰
+TRAVELOZY        ☰
 ```
 
 atau:
 
 ```text
-☰     TRAVELOZZY       Book
+☰     TRAVELOZY       Book
 ```
 
 Sticky action bawah:
@@ -1254,7 +1254,7 @@ Headline:
 
 Supporting copy:
 
-> Dari perjalanan harian hingga momen istimewa, TRAVELOZZY menyediakan kendaraan reguler, premium, luxury dan group transportation untuk setiap perjalanan Anda.
+> Dari perjalanan harian hingga momen istimewa, TRAVELOZY menyediakan kendaraan reguler, premium, luxury dan group transportation untuk setiap perjalanan Anda.
 
 CTA:
 
@@ -1626,7 +1626,7 @@ From Rp xxx
 
 Nama:
 
-# TRAVELOZZY SIGNATURE
+# TRAVELOZY SIGNATURE
 
 Supporting line:
 
@@ -1722,7 +1722,7 @@ Services:
 
 ---
 
-# 40. Why TRAVELOZZY
+# 40. Why TRAVELOZY
 
 Judul:
 
@@ -1825,7 +1825,7 @@ Headline:
 
 Desktop:
 
-> Dari wedding hingga graduation, TRAVELOZZY membantu perjalanan hari istimewa Anda dengan pilihan kendaraan premium, luxury dan professional chauffeur.
+> Dari wedding hingga graduation, TRAVELOZY membantu perjalanan hari istimewa Anda dengan pilihan kendaraan premium, luxury dan professional chauffeur.
 
 Mobile:
 
@@ -1846,7 +1846,7 @@ Chips:
 
 Judul:
 
-# TRAVELOZZY Business
+# TRAVELOZY Business
 
 Supporting line:
 
@@ -1872,7 +1872,7 @@ CTA:
 
 Judul:
 
-# Grow With TRAVELOZZY
+# Grow With TRAVELOZY
 
 Target:
 
@@ -1954,7 +1954,7 @@ CTA:
 ## Desktop
 
 ```text
-TRAVELOZZY
+TRAVELOZY
 
 Services
 Fleet
@@ -2150,7 +2150,7 @@ Signature — Black
 ↓
 Vacation — Warm Cream
 ↓
-Why TRAVELOZZY — White
+Why TRAVELOZY — White
 ↓
 Corporate — Navy
 ↓
@@ -2330,7 +2330,7 @@ Tujuan:
 
 # 61. Black Vehicle Rule
 
-Karena banyak mobil TRAVELOZZY kemungkinan berwarna hitam:
+Karena banyak mobil TRAVELOZY kemungkinan berwarna hitam:
 
 hindari:
 
@@ -2622,11 +2622,11 @@ Inquiry
 ├───────────────────────────────────────────────┤
 │ POPULAR PACKAGES                              │
 ├───────────────────────────────────────────────┤
-│ TRAVELOZZY SIGNATURE                          │
+│ TRAVELOZY SIGNATURE                          │
 ├───────────────────────────────────────────────┤
 │ WHERE TO NEXT?                                │
 ├───────────────────────────────────────────────┤
-│ WHY TRAVELOZZY                                │
+│ WHY TRAVELOZY                                │
 ├───────────────────────────────────────────────┤
 │ HOW IT WORKS                                  │
 ├───────────────────────────────────────────────┤
@@ -2648,7 +2648,7 @@ Inquiry
 
 ```text
 ┌───────────────────────┐
-│ TRAVELOZZY         ☰  │
+│ TRAVELOZY         ☰  │
 ├───────────────────────┤
 │                       │
 │ DRIVE YOUR MOMENT     │
@@ -2680,12 +2680,12 @@ Inquiry
 │ Popular Packages      │
 │ [PACKAGE] →           │
 ├───────────────────────┤
-│ TRAVELOZZY SIGNATURE  │
+│ TRAVELOZY SIGNATURE  │
 ├───────────────────────┤
 │ Where To Next?        │
 │ [Bandung][Puncak] →   │
 ├───────────────────────┤
-│ Why TRAVELOZZY        │
+│ Why TRAVELOZY        │
 │ ✓ Clean Fleet         │
 │ ✓ Pro Driver          │
 │ ✓ Clear Price         │
@@ -2747,7 +2747,7 @@ Setiap landing section harus menjawab salah satu:
 3. Kendaraan apa yang tersedia?
 4. Berapa kira-kira paketnya?
 5. Bagaimana cara booking?
-6. Mengapa saya harus percaya TRAVELOZZY?
+6. Mengapa saya harus percaya TRAVELOZY?
 7. Apa langkah berikutnya?
 
 CTA jangan dibuat terlalu banyak variasi.
@@ -2772,9 +2772,9 @@ Landing page MVP minimal memiliki:
 - Journey Categories
 - Featured Fleet
 - Popular Packages
-- TRAVELOZZY Signature
+- TRAVELOZY Signature
 - Vacation
-- Why TRAVELOZZY
+- Why TRAVELOZY
 - How It Works
 - Airport
 - Wedding
@@ -2812,7 +2812,7 @@ Potensi fase lanjutan:
 
 # 77. Final Design Principle
 
-TRAVELOZZY harus dibangun dengan prinsip:
+TRAVELOZY harus dibangun dengan prinsip:
 
 > **One vehicle for every moment.**
 

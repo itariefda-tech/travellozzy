@@ -11,7 +11,7 @@ export type BookingInquiry = {
 
 export function buildBookingMessage(inquiry: BookingInquiry) {
   return [
-    'Halo TRAVELOZZY,',
+    'Halo TRAVELOZY,',
     '',
     'Saya ingin membuat inquiry perjalanan:',
     '',

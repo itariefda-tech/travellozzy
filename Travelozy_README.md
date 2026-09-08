@@ -1,8 +1,8 @@
-# TRAVELOZZY
+# TRAVELOZY
 
-TRAVELOZZY adalah brand rental mobil dan layanan perjalanan yang menyediakan kendaraan reguler hingga luxury untuk berbagai kebutuhan: perjalanan harian, event, vacation, airport transfer, perjalanan bisnis, kebutuhan VIP, hingga transportasi rombongan.
+TRAVELOZY adalah brand rental mobil dan layanan perjalanan yang menyediakan kendaraan reguler hingga luxury untuk berbagai kebutuhan: perjalanan harian, event, vacation, airport transfer, perjalanan bisnis, kebutuhan VIP, hingga transportasi rombongan.
 
-TRAVELOZZY tidak diposisikan hanya sebagai “rental mobil”, tetapi sebagai **mobility & travel service** yang membantu pelanggan memilih kendaraan dan layanan berdasarkan kebutuhan perjalanan mereka.
+TRAVELOZY tidak diposisikan hanya sebagai “rental mobil”, tetapi sebagai **mobility & travel service** yang membantu pelanggan memilih kendaraan dan layanan berdasarkan kebutuhan perjalanan mereka.
 
 > **Drive Your Moment.**  
 > From everyday rides to extraordinary moments.
@@ -11,7 +11,7 @@ TRAVELOZZY tidak diposisikan hanya sebagai “rental mobil”, tetapi sebagai **
 
 ## 1. Tujuan Project
 
-Website TRAVELOZZY dirancang untuk menjadi:
+Website TRAVELOZY dirancang untuk menjadi:
 
 - pusat informasi layanan dan armada;
 - landing page utama untuk kebutuhan marketing dan conversion;
@@ -24,7 +24,7 @@ Website TRAVELOZZY dirancang untuk menjadi:
 
 ## 2. Positioning Brand
 
-TRAVELOZZY mengambil positioning **Affordable Premium**.
+TRAVELOZY mengambil positioning **Affordable Premium**.
 
 Artinya:
 
@@ -36,7 +36,7 @@ Artinya:
 
 Prinsip utama:
 
-> **TRAVELOZZY tidak hanya menjual mobil. TRAVELOZZY menjual solusi perjalanan.**
+> **TRAVELOZY tidak hanya menjual mobil. TRAVELOZY menjual solusi perjalanan.**
 
 Customer biasanya datang karena kebutuhan:
 
@@ -53,7 +53,7 @@ Website harus mengikuti cara customer berpikir tersebut.
 
 ## 3. Layanan Utama
 
-### TRAVELOZZY Event
+### TRAVELOZY Event
 Untuk kebutuhan:
 
 - Wedding
@@ -70,7 +70,7 @@ Untuk kebutuhan:
 - Film / Production
 - Special Occasion
 
-### TRAVELOZZY Vacation
+### TRAVELOZY Vacation
 Untuk:
 
 - Bandung
@@ -88,7 +88,7 @@ Untuk:
 - Mudik / Lebaran Trip
 - Intercity Travel
 
-### TRAVELOZZY Transfer
+### TRAVELOZY Transfer
 Untuk:
 
 - Airport Pickup
@@ -104,7 +104,7 @@ Untuk:
 - Luggage Transfer
 - Delivery & Light Goods Transport
 
-### TRAVELOZZY Daily
+### TRAVELOZY Daily
 Untuk:
 
 - rental harian;
@@ -119,7 +119,7 @@ Untuk:
 - weekly rental;
 - monthly rental.
 
-### TRAVELOZZY Business
+### TRAVELOZY Business
 Untuk:
 
 - executive transportation;
@@ -133,7 +133,7 @@ Untuk:
 - airport transfer perusahaan;
 - kebutuhan proyek.
 
-### TRAVELOZZY Luxury
+### TRAVELOZY Luxury
 Untuk:
 
 - Wedding Luxury
@@ -147,7 +147,7 @@ Untuk:
 - Brand Campaign
 - Luxury Ride Experience
 
-### TRAVELOZZY Group
+### TRAVELOZY Group
 Untuk:
 
 - Hiace
@@ -224,7 +224,7 @@ Contoh:
 
 ## 5. Model Layanan
 
-TRAVELOZZY dapat menyediakan beberapa model rental:
+TRAVELOZY dapat menyediakan beberapa model rental:
 
 - Self Drive
 - Car + Driver
@@ -240,7 +240,7 @@ Untuk kendaraan premium dan luxury, layanan chauffeur dapat menjadi prioritas ut
 
 Website tidak hanya menampilkan daftar kendaraan.
 
-TRAVELOZZY juga dapat menjual paket berdasarkan kebutuhan customer, misalnya:
+TRAVELOZY juga dapat menjual paket berdasarkan kebutuhan customer, misalnya:
 
 - Wedding Package
 - Airport Package
@@ -285,7 +285,7 @@ Layanan tambahan yang dapat dikembangkan:
 
 ## 8. Target Customer
 
-Target utama TRAVELOZZY:
+Target utama TRAVELOZY:
 
 - Individual
 - Family
@@ -436,7 +436,7 @@ Contoh:
 
 Current stage:
 
-- [x] Brand name ditetapkan: TRAVELOZZY
+- [x] Brand name ditetapkan: TRAVELOZY
 - [x] Positioning awal ditetapkan
 - [x] Layanan utama dirancang
 - [x] Konsep landing page dibahas
@@ -450,4 +450,4 @@ Current stage:
 
 ## 14. Next Step
 
-Tahap berikutnya adalah membuat `BLUEPRINT.md` sebagai dokumen desain dan UX utama yang berisi seluruh narasi layanan yang telah disetujui, konsep landing page, responsive behavior, UI direction, serta palette resmi TRAVELOZZY.
+Tahap berikutnya adalah membuat `BLUEPRINT.md` sebagai dokumen desain dan UX utama yang berisi seluruh narasi layanan yang telah disetujui, konsep landing page, responsive behavior, UI direction, serta palette resmi TRAVELOZY.

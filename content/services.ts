@@ -3,7 +3,7 @@ import type { Service } from '@/types/content';
 export const services: Service[] = [
   {
     slug: 'event',
-    name: 'TRAVELOZZY Event',
+    name: 'TRAVELOZY Event',
     shortName: 'Event',
     copy: {
       desktop: 'Wedding, engagement, graduation, anniversary, hingga corporate event dengan perjalanan yang tertata.',
@@ -14,7 +14,7 @@ export const services: Service[] = [
   },
   {
     slug: 'vacation',
-    name: 'TRAVELOZZY Vacation',
+    name: 'TRAVELOZY Vacation',
     shortName: 'Vacation',
     copy: {
       desktop: 'Perjalanan keluarga, pasangan, dan sahabat ke Bandung, Puncak, Bogor, Anyer, dan beyond.',
@@ -25,7 +25,7 @@ export const services: Service[] = [
   },
   {
     slug: 'transfer',
-    name: 'TRAVELOZZY Transfer',
+    name: 'TRAVELOZY Transfer',
     shortName: 'Transfer',
     copy: {
       desktop: 'Airport, hotel, station, dan point-to-point transfer yang sederhana dan terencana.',
@@ -36,7 +36,7 @@ export const services: Service[] = [
   },
   {
     slug: 'daily',
-    name: 'TRAVELOZZY Daily',
+    name: 'TRAVELOZY Daily',
     shortName: 'Daily',
     copy: {
       desktop: 'Mobilitas fleksibel untuk aktivitas keluarga, meeting, kunjungan, atau kebutuhan mendadak.',
@@ -47,7 +47,7 @@ export const services: Service[] = [
   },
   {
     slug: 'business',
-    name: 'TRAVELOZZY Business',
+    name: 'TRAVELOZY Business',
     shortName: 'Business',
     copy: {
       desktop: 'Executive transport, guest pickup, operational vehicle, dan roadshow untuk kebutuhan profesional.',
@@ -58,7 +58,7 @@ export const services: Service[] = [
   },
   {
     slug: 'luxury',
-    name: 'TRAVELOZZY Luxury',
+    name: 'TRAVELOZY Luxury',
     shortName: 'Luxury',
     copy: {
       desktop: 'Premium car dan professional chauffeur untuk momen ketika perjalanan biasa belum cukup.',
@@ -69,7 +69,7 @@ export const services: Service[] = [
   },
   {
     slug: 'group',
-    name: 'TRAVELOZZY Group',
+    name: 'TRAVELOZY Group',
     shortName: 'Group',
     copy: {
       desktop: 'Pilihan kelas Hiace, Elf, hingga bus untuk outing, gathering, wedding guest, dan group vacation.',

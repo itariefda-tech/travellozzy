@@ -4,7 +4,7 @@ import './globals.css';
 
 const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL ??
-  'https://travelozzy.scorns-pace-6d.chatgpt.site';
+  'https://travelozy.my.id';
 
 const inter = Inter({
   variable: '--font-inter',
@@ -21,8 +21,8 @@ const manrope = Manrope({
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'TRAVELOZZY — Mobility & Travel Service',
-    template: '%s | TRAVELOZZY',
+    default: 'TRAVELOZY — Mobility & Travel Service',
+    template: '%s | TRAVELOZY',
   },
   description:
     'Layanan perjalanan reguler hingga luxury untuk kebutuhan harian, airport, vacation, wedding, corporate, dan group transportation.',
@@ -30,13 +30,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'id_ID',
-    siteName: 'TRAVELOZZY',
-    title: 'TRAVELOZZY — Drive Your Moment',
+    siteName: 'TRAVELOZY',
+    title: 'TRAVELOZY — Drive Your Moment',
     description: 'Mobility & travel service untuk daily, airport, vacation, event, corporate, luxury, dan group transportation.',
   },
   twitter: {
     card: 'summary',
-    title: 'TRAVELOZZY — Drive Your Moment',
+    title: 'TRAVELOZY — Drive Your Moment',
     description: 'Mobility & travel service untuk setiap perjalanan.',
   },
 };

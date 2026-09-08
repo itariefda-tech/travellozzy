@@ -2,19 +2,41 @@ import type { Vehicle, VehicleCategory } from '@/types/content';
 
 export const fleetCategories: Array<{ value: 'all' | VehicleCategory; label: string }> = [
   { value: 'all', label: 'All' },
-  { value: 'economy', label: 'Economy' },
+  { value: 'luxury', label: 'Luxury' },
+  { value: 'premium', label: 'Premium' },
   { value: 'family', label: 'Family' },
   { value: 'suv', label: 'SUV' },
-  { value: 'premium', label: 'Premium' },
-  { value: 'luxury', label: 'Luxury' },
   { value: 'group', label: 'Group' },
 ];
 
 export const fleet: Vehicle[] = [
-  { id: 'economy-city', slug: 'economy-city', name: 'Economy City', examples: 'Contoh kelas: Brio, Agya, Ayla', category: 'economy', seats: 'Hingga 4', chauffeurAvailable: true, selfDriveAvailable: true, priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Daily', 'City'], isFeatured: false },
-  { id: 'family-comfort', slug: 'family-comfort', name: 'Family Comfort', examples: 'Contoh kelas: Innova Reborn, Zenix', category: 'family', seats: 'Hingga 7', chauffeurAvailable: true, selfDriveAvailable: true, priceMode: 'quote', image: '/images/editorial/destination-west-java.webp', recommendedFor: ['Vacation', 'Family'], isFeatured: true },
-  { id: 'suv-journey', slug: 'suv-journey', name: 'SUV Journey', examples: 'Contoh kelas: Fortuner, Pajero Sport', category: 'suv', seats: 'Hingga 7', chauffeurAvailable: true, selfDriveAvailable: false, priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Intercity', 'Business'], isFeatured: true },
-  { id: 'premium-executive', slug: 'premium-executive', name: 'Premium Executive', examples: 'Contoh kelas: Camry, Alphard, Vellfire', category: 'premium', seats: 'Hingga 6', chauffeurAvailable: true, selfDriveAvailable: false, priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Executive', 'Airport'], isFeatured: true },
-  { id: 'signature-luxury', slug: 'signature-luxury', name: 'Signature Luxury', examples: 'Contoh kelas: Mercedes-Benz, BMW, Lexus', category: 'luxury', seats: 'Hingga 4', chauffeurAvailable: true, selfDriveAvailable: false, priceMode: 'quote', image: '/images/editorial/service-wedding.webp', recommendedFor: ['Wedding', 'VIP'], isFeatured: true },
-  { id: 'group-mobility', slug: 'group-mobility', name: 'Group Mobility', examples: 'Contoh kelas: Hiace, Elf, Bus', category: 'group', seats: '10+ penumpang', chauffeurAvailable: true, selfDriveAvailable: false, priceMode: 'quote', image: '/images/editorial/destination-west-java.webp', recommendedFor: ['Group', 'Outing'], isFeatured: true },
+  { id: 'mercedes-benz-c300', slug: 'mercedes-benz-c300', brand: 'Mercedes-Benz', model: 'C300', name: 'Mercedes-Benz C300', category: 'luxury', priceMode: 'quote', image: '/images/editorial/service-wedding.webp', recommendedFor: ['Wedding', 'Luxury', 'Corporate'], isFeatured: true },
+  { id: 'toyota-alphard-gen-4-hybrid', slug: 'toyota-alphard-gen-4-hybrid', brand: 'Toyota', model: 'Alphard Gen 4 Hybrid', name: 'Toyota Alphard Gen 4 Hybrid', category: 'premium', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Wedding', 'Luxury', 'Corporate'], isFeatured: true },
+  { id: 'toyota-voxy-facelift', slug: 'toyota-voxy-facelift', brand: 'Toyota', model: 'Voxy Facelift', name: 'Toyota Voxy Facelift', category: 'premium', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Wedding', 'Luxury', 'Corporate'], isFeatured: false },
+  { id: 'denza', slug: 'denza', brand: 'Denza', model: '', name: 'Denza', category: 'premium', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Wedding', 'Luxury', 'Corporate'], isFeatured: false },
+  { id: 'toyota-hiace-premio', slug: 'toyota-hiace-premio', brand: 'Toyota', model: 'Hiace Premio', name: 'Toyota Hiace Premio', category: 'group', priceMode: 'quote', image: '/images/editorial/destination-west-java.webp', recommendedFor: ['Group'], isFeatured: true },
+  { id: 'toyota-hiace', slug: 'toyota-hiace', brand: 'Toyota', model: 'Hiace', name: 'Toyota Hiace', category: 'group', priceMode: 'quote', image: '/images/editorial/destination-west-java.webp', recommendedFor: ['Group'], isFeatured: false },
+  { id: 'toyota-hiace-premio-14-seat', slug: 'toyota-hiace-premio-14-seat', brand: 'Toyota', model: 'Hiace Premio 14 Seat', name: 'Toyota Hiace Premio 14 Seat', category: 'group', priceMode: 'quote', image: '/images/editorial/destination-west-java.webp', recommendedFor: ['Group'], isFeatured: false },
+  { id: 'toyota-innova-zenix-q', slug: 'toyota-innova-zenix-q', brand: 'Toyota', model: 'Innova Zenix Q', name: 'Toyota Innova Zenix Q', category: 'family', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Vacation', 'Family', 'Corporate'], isFeatured: true },
+  { id: 'toyota-innova-zenix-g-hybrid', slug: 'toyota-innova-zenix-g-hybrid', brand: 'Toyota', model: 'Innova Zenix G Hybrid', name: 'Toyota Innova Zenix G Hybrid', category: 'family', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Vacation', 'Family'], isFeatured: false },
+  { id: 'toyota-innova-reborn', slug: 'toyota-innova-reborn', brand: 'Toyota', model: 'Innova Reborn', name: 'Toyota Innova Reborn', category: 'family', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Vacation', 'Family'], isFeatured: false },
+  { id: 'hyundai-stargazer', slug: 'hyundai-stargazer', brand: 'Hyundai', model: 'Stargazer', name: 'Hyundai Stargazer', category: 'family', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Vacation', 'Family'], isFeatured: false },
+  { id: 'mitsubishi-xpander', slug: 'mitsubishi-xpander', brand: 'Mitsubishi', model: 'Xpander', name: 'Mitsubishi Xpander', category: 'family', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Vacation', 'Family'], isFeatured: true },
+  { id: 'toyota-veloz', slug: 'toyota-veloz', brand: 'Toyota', model: 'Veloz', name: 'Toyota Veloz', category: 'family', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Vacation', 'Family'], isFeatured: false },
+  { id: 'toyota-avanza-new', slug: 'toyota-avanza-new', brand: 'Toyota', model: 'Avanza New', name: 'Toyota Avanza New', category: 'family', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Vacation', 'Family'], isFeatured: true },
+  { id: 'suzuki-xl7', slug: 'suzuki-xl7', brand: 'Suzuki', model: 'XL7', name: 'Suzuki XL7', category: 'family', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['Vacation', 'Family'], isFeatured: false },
+  { id: 'toyota-fortuner-gr', slug: 'toyota-fortuner-gr', brand: 'Toyota', model: 'Fortuner GR', name: 'Toyota Fortuner GR', category: 'suv', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['SUV', 'Outstation'], isFeatured: true },
+  { id: 'mitsubishi-pajero-sport', slug: 'mitsubishi-pajero-sport', brand: 'Mitsubishi', model: 'Pajero Sport', name: 'Mitsubishi Pajero Sport', category: 'suv', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['SUV', 'Outstation'], isFeatured: true },
+  { id: 'toyota-rush-gr', slug: 'toyota-rush-gr', brand: 'Toyota', model: 'Rush GR', name: 'Toyota Rush GR', category: 'suv', priceMode: 'quote', image: '/images/editorial/fleet-premium-mobility.webp', recommendedFor: ['SUV', 'Outstation'], isFeatured: false },
 ];
+
+export const featuredFleetSlugs = [
+  'toyota-alphard-gen-4-hybrid',
+  'toyota-innova-zenix-q',
+  'toyota-hiace-premio',
+  'mercedes-benz-c300',
+  'toyota-fortuner-gr',
+  'mitsubishi-pajero-sport',
+  'mitsubishi-xpander',
+  'toyota-avanza-new',
+] as const;

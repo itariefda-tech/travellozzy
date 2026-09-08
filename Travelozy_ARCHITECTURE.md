@@ -1,8 +1,8 @@
-# TRAVELOZZY — ARCHITECTURE
+# TRAVELOZY — ARCHITECTURE
 
 ## 1. Document Purpose
 
-Dokumen ini mendefinisikan arsitektur teknis website **TRAVELOZZY**.
+Dokumen ini mendefinisikan arsitektur teknis website **TRAVELOZY**.
 
 Dokumen ini menjadi acuan untuk:
 
@@ -26,11 +26,11 @@ Dokumen ini **tidak menduplikasi** detail visual dan narasi brand.
 
 Referensi desain utama:
 
-> `TRAVELOZZY_BLUEPRINT.md`
+> `TRAVELOZY_BLUEPRINT.md`
 
 Referensi ringkasan project:
 
-> `TRAVELOZZY_README.md`
+> `TRAVELOZY_README.md`
 
 Progress implementasi akan dikelola di:
 
@@ -40,7 +40,7 @@ Progress implementasi akan dikelola di:
 
 # 2. Architecture Goals
 
-Arsitektur TRAVELOZZY harus memenuhi tujuan berikut:
+Arsitektur TRAVELOZY harus memenuhi tujuan berikut:
 
 1. **Fast**
    - landing page cepat;
@@ -254,7 +254,7 @@ Next.js Application
 Rekomendasi struktur:
 
 ```text
-travelozzy/
+travelozy/
 │
 ├── app/
 │   ├── page.tsx
@@ -331,9 +331,9 @@ travelozzy/
 │
 ├── tests/
 │
-├── TRAVELOZZY_README.md
-├── TRAVELOZZY_ARCHITECTURE.md
-├── TRAVELOZZY_BLUEPRINT.md
+├── TRAVELOZY_README.md
+├── TRAVELOZY_ARCHITECTURE.md
+├── TRAVELOZY_BLUEPRINT.md
 └── ROADMAP.md
 ```
 
@@ -356,7 +356,7 @@ Contoh:
   <PopularPackages />
   <SignatureSection />
   <VacationSection />
-  <WhyTravelozzy />
+  <WhyTravelozy />
   <HowItWorks />
   <AirportTransfer />
   <WeddingEvent />
@@ -414,7 +414,7 @@ Design token harus menjadi single source of truth.
 
 Detail warna resmi mengikuti:
 
-> `TRAVELOZZY_BLUEPRINT.md`
+> `TRAVELOZY_BLUEPRINT.md`
 
 Core palette:
 
@@ -444,7 +444,7 @@ Jangan menyebarkan hardcoded HEX ke banyak component.
 
 # 14. Responsive Content Architecture
 
-Ini adalah aturan arsitektur penting TRAVELOZZY.
+Ini adalah aturan arsitektur penting TRAVELOZY.
 
 Desktop dan mobile dapat mempunyai copy berbeda.
 
@@ -464,7 +464,7 @@ Contoh:
 ```ts
 {
   desktop:
-    "Dari perjalanan harian hingga momen istimewa, TRAVELOZZY menyediakan kendaraan reguler, premium, luxury dan group transportation untuk setiap perjalanan Anda.",
+    "Dari perjalanan harian hingga momen istimewa, TRAVELOZY menyediakan kendaraan reguler, premium, luxury dan group transportation untuk setiap perjalanan Anda.",
   mobile:
     "Rental reguler hingga luxury untuk setiap perjalanan."
 }
@@ -768,7 +768,7 @@ Format message dibangun otomatis.
 Contoh:
 
 ```text
-Halo TRAVELOZZY,
+Halo TRAVELOZY,
 
 Saya ingin booking:
 
@@ -1223,7 +1223,7 @@ Contoh:
 
 Jika fleet filter kosong:
 
-> Kendaraan untuk kategori ini sedang belum tersedia. Hubungi TRAVELOZZY untuk rekomendasi kendaraan lain.
+> Kendaraan untuk kategori ini sedang belum tersedia. Hubungi TRAVELOZY untuk rekomendasi kendaraan lain.
 
 CTA:
 
@@ -1372,7 +1372,7 @@ Port 3000
 Nginx:
 
 ```text
-travelozzy.domain
+travelozy.domain
 ↓
 127.0.0.1:<port>
 ```
@@ -1576,15 +1576,15 @@ Urutan referensi:
 
 ## Brand / UX / Visual
 
-`TRAVELOZZY_BLUEPRINT.md`
+`TRAVELOZY_BLUEPRINT.md`
 
 ## Technical
 
-`TRAVELOZZY_ARCHITECTURE.md`
+`TRAVELOZY_ARCHITECTURE.md`
 
 ## Project Summary
 
-`TRAVELOZZY_README.md`
+`TRAVELOZY_README.md`
 
 ## Work Progress
 

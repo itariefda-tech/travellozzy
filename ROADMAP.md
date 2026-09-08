@@ -1,4 +1,4 @@
-# TRAVELOZZY — EXECUTION ROADMAP
+# TRAVELOZY — EXECUTION ROADMAP
 
 ## Overall Status
 
@@ -6,7 +6,7 @@
 - Overall Progress: 97%
 - Last Updated: 2026-09-09
 - Readiness: READY WITH NOTES
-- Source of truth: `Travelozzy_README.md`, `Travelozzy_BLUEPRINT.md`, `Travelozzy_ARCHITECTURE.md`
+- Source of truth: `Travelozy_README.md`, `Travelozy_BLUEPRINT.md`, `Travelozy_ARCHITECTURE.md`
 
 ## Status Rules
 
@@ -183,7 +183,7 @@ Provide an honest fleet-class discovery experience without fabricated inventory 
 
 ---
 
-## Phase 5 — Packages & TRAVELOZZY Signature
+## Phase 5 — Packages & TRAVELOZY Signature
 
 ### Goal
 
@@ -197,7 +197,18 @@ Sell need-based journey packages and establish the restrained luxury tier.
 
 - [x] Implement six typed journey packages.
 - [x] Implement responsive Popular Journeys cards.
-- [x] Implement TRAVELOZZY Signature with chauffeur-first positioning and editorial disclosure.
+- [x] Implement TRAVELOZY Signature with chauffeur-first positioning and editorial disclosure.
+
+### Real Fleet Inventory Update
+
+- [x] Normalize 18 verified fleet names and semantic slugs.
+- [x] Replace illustrative vehicle classes with real fleet entries and safe quote-only pricing.
+- [x] Map Premium, Luxury, Family, SUV, and Group categories; retain distinct Hiace Premio entries.
+- [x] Set eight balanced featured vehicles and add the complete `/fleet` catalogue with filters.
+- [x] Connect fleet-card selection to the booking inquiry vehicle field.
+- [x] Update destination recommendation mappings to real fleet names.
+- [x] Keep generic editorial placeholders where no verified vehicle photo is mapped.
+- [ ] Complete manual mobile and desktop visual QA.
 
 ### Deliverables
 
@@ -254,7 +265,7 @@ Complete trust, process, airport, event, corporate, and partnership paths.
 
 ### Tasks
 
-- [x] Implement Why TRAVELOZZY and How It Works.
+- [x] Implement Why TRAVELOZY and How It Works.
 - [x] Implement Airport Transfer and Wedding & Event.
 - [x] Implement Corporate and Partnership inquiry sections.
 
@@ -400,16 +411,22 @@ Run executable gates, preserve evidence, and publish the exact validated source 
 - Commit/source push: PASS — commit `65513fbc32a02252e48aa568b8d3c16009059e64` pushed to the Site source branch.
 - Archive validation: PASS — normalized static archive contains hosting metadata, `index.html`, 404, crawl files, and optimized imagery.
 - Private production deployment: PASS — Sites deployment reached `succeeded` at `https://travelozzy.scorns-pace-6d.chatgpt.site`.
+- VPS static release: PASS — release `travelozy-202609090230` is active behind Nginx on `51.222.30.28`; Cloudflare edge and origin checks for `/` and `/fleet` returned HTTP 200.
+- VPS Nginx routing: PASS — static HTML routes resolve through the `travelozy.my.id` server block.
+- Cloudflare DNS and public TLS: PASS — authoritative nameservers and proxied DNS are active; Cloudflare edge returns HTTP 301 and HTTPS 200 for the production hostname. Let's Encrypt covers the apex and `www` through 2026-12-07 with `certbot.timer` enabled.
+- Production SEO origin: PASS — canonical metadata, robots, sitemap, and environment example use `https://travelozy.my.id`.
+- Release workflow: PASS — `deploy/publish.ps1` records the gated `dev` push → fast-forward-only `main` promotion → VPS deployment flow; `deploy/README.md` is the operator runbook.
 
 ---
 
 ## Current Unresolved Items
 
-- Real WhatsApp number, public business domain, address, price list, owned fleet list, verified testimonials, and social profiles were not supplied. `.env.example` exposes the required replacement points.
+- Real WhatsApp number, address, verified testimonials, and social profiles were not supplied. `.env.example` exposes the required replacement points.
 - Generated imagery is editorial placeholder material, not factual fleet photography. Replace it with verified business assets before representing actual inventory.
+- Cloudflare dashboard verification of SSL/TLS mode **Full (strict)** remains a manual account-side check; origin HTTPS is ready for it.
 - Browser/device visual QA and Lighthouse metrics remain pending and are not reported as passed.
 - No service/fleet/destination detail pages were created: the initial MVP remains one complete conversion page, while structured slugs and data keep future expansion ready without publishing thin content.
 
 ## Next Step
 
-Replace placeholder business data and editorial imagery when verified inputs are available, then perform the pending browser/device/Lighthouse QA before a broader public launch.
+Confirm Cloudflare SSL/TLS mode is **Full (strict)**. Replace editorial fleet imagery with verified business assets and complete the pending browser/device/Lighthouse QA before broader public launch.

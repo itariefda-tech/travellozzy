@@ -23,7 +23,13 @@ const steps = ['Service', 'Tanggal', 'Kendaraan', 'Kontak'];
 
 export function BookingWizard() {
   const [step, setStep] = useState(0);
-  const [inquiry, setInquiry] = useState(initialInquiry);
+  const [inquiry, setInquiry] = useState(() => {
+    if (typeof window === 'undefined') return initialInquiry;
+
+    const vehicleSlug = new URLSearchParams(window.location.search).get('vehicle');
+    const selectedVehicle = fleet.find((vehicle) => vehicle.slug === vehicleSlug);
+    return selectedVehicle ? { ...initialInquiry, vehicle: selectedVehicle.name } : initialInquiry;
+  });
   const [error, setError] = useState('');
 
   const update = (field: keyof BookingInquiry, value: string) => {
@@ -93,9 +99,9 @@ export function BookingWizard() {
           {step === 2 && (
             <div className="booking-fields booking-fields--split">
               <label>
-                Kelas kendaraan
+                Kendaraan
                 <NativeSelect className="field-control" value={inquiry.vehicle} onChange={(event) => update('vehicle', event.target.value)}>
-                  <NativeSelectOption value="">Pilih kelas</NativeSelectOption>
+                  <NativeSelectOption value="">Pilih kendaraan</NativeSelectOption>
                   {fleet.map((vehicle) => <NativeSelectOption key={vehicle.id} value={vehicle.name}>{vehicle.name}</NativeSelectOption>)}
                 </NativeSelect>
               </label>

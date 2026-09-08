@@ -13,8 +13,6 @@ export type Service = {
 };
 
 export type VehicleCategory =
-  | 'economy'
-  | 'regular'
   | 'family'
   | 'suv'
   | 'premium'
@@ -24,12 +22,10 @@ export type VehicleCategory =
 export type Vehicle = {
   id: string;
   slug: string;
+  brand: string;
+  model: string;
   name: string;
-  examples: string;
   category: VehicleCategory;
-  seats: string;
-  chauffeurAvailable: boolean;
-  selfDriveAvailable: boolean;
   priceMode: 'quote';
   image: string;
   recommendedFor: string[];

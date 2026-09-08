@@ -30,12 +30,11 @@ export function HeroSection() {
         <p className="eyebrow">Mobility &amp; Travel Service</p>
         <h1 id="hero-title">Drive Your Moment.</h1>
         <p className="hero__copy hero__copy--desktop">
-          Dari perjalanan harian hingga momen istimewa, TRAVELOZZY menyediakan
-          kendaraan reguler, premium, luxury, dan group transportation untuk
-          setiap perjalanan Anda.
+          Dari Avanza dan Xpander untuk perjalanan harian hingga Alphard,
+          Mercedes-Benz, Denza, dan Hiace untuk kebutuhan premium dan group transportation.
         </p>
         <p className="hero__copy hero__copy--mobile">
-          Rental reguler hingga luxury untuk setiap perjalanan.
+          Armada reguler, premium, luxury, SUV, dan group.
         </p>
         <div className="hero__actions">
           <a className="button-link button-link--gold" href="#booking">

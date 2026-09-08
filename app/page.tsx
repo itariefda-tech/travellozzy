@@ -7,7 +7,7 @@ import { FeaturedFleet } from '@/components/landing/FeaturedFleet';
 import { PopularPackages } from '@/components/landing/PopularPackages';
 import { SignatureSection } from '@/components/landing/SignatureSection';
 import { VacationSection } from '@/components/landing/VacationSection';
-import { AirportTransfer, CorporateSection, HowItWorks, PartnerSection, WeddingEvent, WhyTravelozzy } from '@/components/landing/SupportingSections';
+import { AirportTransfer, CorporateSection, HowItWorks, PartnerSection, WeddingEvent, WhyTravelozy } from '@/components/landing/SupportingSections';
 import { Testimonials } from '@/components/landing/Testimonials';
 import { FAQSection } from '@/components/landing/FAQSection';
 import { FinalCTA } from '@/components/landing/FinalCTA';
@@ -30,7 +30,7 @@ export default function HomePage() {
         <PopularPackages />
         <SignatureSection />
         <VacationSection />
-        <WhyTravelozzy />
+        <WhyTravelozy />
         <HowItWorks />
         <AirportTransfer />
         <WeddingEvent />

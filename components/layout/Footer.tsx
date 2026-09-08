@@ -11,7 +11,7 @@ export function Footer() {
     <footer className="site-footer" id="contact">
       <div className="container-shell footer-grid">
         <div className="footer-brand">
-          <p className="wordmark">TRAVELOZZY</p>
+          <p className="wordmark">TRAVELOZY</p>
           <p>Drive Your Moment.<br />Jakarta &amp; Jabodetabek<br />Intercity trips available.</p>
         </div>
         {footerGroups.map((group) => (
@@ -26,7 +26,7 @@ export function Footer() {
           <p className="footer-note">Nomor WhatsApp dan social profile perlu dikonfigurasi sebelum publikasi bisnis.</p>
         </div>
       </div>
-      <div className="container-shell footer-bottom"><span>© {new Date().getFullYear()} TRAVELOZZY</span><span>Mobility &amp; Travel Service</span></div>
+      <div className="container-shell footer-bottom"><span>© {new Date().getFullYear()} TRAVELOZY</span><span>Mobility &amp; Travel Service</span></div>
     </footer>
   );
 }

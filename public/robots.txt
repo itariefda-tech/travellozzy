@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://travelozzy.scorns-pace-6d.chatgpt.site/sitemap.xml
+Sitemap: https://travelozy.my.id/sitemap.xml

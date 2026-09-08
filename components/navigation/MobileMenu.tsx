@@ -6,7 +6,7 @@ import { Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTi
 
 const links = [
   ['Services', '#services'],
-  ['Fleet', '#fleet'],
+  ['Fleet', '/fleet'],
   ['Vacation', '#vacation'],
   ['Event', '#event'],
   ['Corporate', '#corporate'],
@@ -22,7 +22,7 @@ export function MobileMenu() {
         </SheetTrigger>
         <SheetContent className="mobile-menu__sheet">
           <SheetHeader>
-            <SheetTitle>TRAVELOZZY</SheetTitle>
+            <SheetTitle>TRAVELOZY</SheetTitle>
             <SheetDescription>Pilih perjalanan atau mulai inquiry.</SheetDescription>
           </SheetHeader>
           <nav className="mobile-menu__nav" aria-label="Navigasi mobile">
