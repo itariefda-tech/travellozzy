@@ -12,6 +12,7 @@
     "lint": "oxlint",
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/*.test.ts",
+    "images:fleet": "node scripts/optimize-fleet-images.mjs",
     "format": "oxfmt"
   },
   "dependencies": {

@@ -38,3 +38,6 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+
+# Local media not used by the website build
+/content/*.mp3

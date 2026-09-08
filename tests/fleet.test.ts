@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const source = readFileSync(new URL('../content/fleet.ts', import.meta.url), 'utf8');
@@ -26,4 +26,12 @@ void test('featured fleet and filters expose the required categories', () => {
     ],
   );
   assert.match(source, /label: 'All'[\s\S]*label: 'Luxury'[\s\S]*label: 'Premium'[\s\S]*label: 'Family'[\s\S]*label: 'SUV'[\s\S]*label: 'Group'/);
+});
+
+void test('every mapped fleet image exists in the public gallery', () => {
+  const imagePaths = [...source.matchAll(/image: '(\/images\/fleet\/[^']+)'/g)].map((match) => match[1]);
+  assert.equal(imagePaths.length, 14);
+  for (const imagePath of imagePaths) {
+    assert.ok(existsSync(new URL(`../public${imagePath}`, import.meta.url)), `Missing ${imagePath}`);
+  }
 });

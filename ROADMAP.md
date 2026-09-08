@@ -207,7 +207,8 @@ Sell need-based journey packages and establish the restrained luxury tier.
 - [x] Set eight balanced featured vehicles and add the complete `/fleet` catalogue with filters.
 - [x] Connect fleet-card selection to the booking inquiry vehicle field.
 - [x] Update destination recommendation mappings to real fleet names.
-- [x] Keep generic editorial placeholders where no verified vehicle photo is mapped.
+- [x] Map 14 supplied vehicle images to matching fleet entries and optimize them as gallery WebP assets.
+- [x] Keep generic editorial placeholders for Mercedes-Benz C300, Denza, Innova Zenix Q, and Toyota Veloz because no matching image was supplied.
 - [ ] Complete manual mobile and desktop visual QA.
 
 ### Deliverables

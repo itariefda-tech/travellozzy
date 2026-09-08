@@ -36,7 +36,7 @@ export function FeaturedFleet({ showAllByDefault = false, showViewAllLink = true
           <div className="fleet-grid">
             {filtered.map((vehicle) => (
               <article className="fleet-card" key={vehicle.id}>
-                <div className="fleet-card__media"><Image src={vehicle.image} alt="Visual ilustratif armada TRAVELOZY" width="800" height="600" loading="lazy" /><span>{categoryLabel(vehicle.category)}</span></div>
+                <div className="fleet-card__media"><Image src={vehicle.image} alt={vehicle.imageAlt ?? 'Visual ilustratif armada TRAVELOZY'} width="800" height="600" loading="lazy" /><span>{categoryLabel(vehicle.category)}</span></div>
                 <div className="fleet-card__body">
                   <h3>{vehicle.name}</h3><p>{vehicle.recommendedFor.join(' · ')}</p>
                   <div className="fleet-card__footer"><strong>Ask for Quote</strong><Link href={`/?vehicle=${vehicle.slug}#booking`} aria-label={`Book ${vehicle.name}`}>Book This Car <ArrowUpRight aria-hidden="true" /></Link></div>

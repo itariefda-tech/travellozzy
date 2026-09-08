@@ -28,6 +28,7 @@ export type Vehicle = {
   category: VehicleCategory;
   priceMode: 'quote';
   image: string;
+  imageAlt?: string;
   recommendedFor: string[];
   isFeatured: boolean;
 };
