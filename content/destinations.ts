@@ -1,0 +1,9 @@
+import type { Destination } from '@/types/content';
+
+export const destinations: Destination[] = [
+  { slug: 'bandung', name: 'Bandung', region: 'West Java', copy: { desktop: 'Dari Braga dan Dago hingga Lembang dan Ciwidey—atur perjalanan sesuai ritme Anda.', mobile: 'Lembang • Braga • Ciwidey' }, highlights: ['Lembang', 'Braga', 'Ciwidey'], image: '/images/editorial/destination-west-java.webp', recommendedVehicles: ['Family Comfort', 'Group Mobility'] },
+  { slug: 'puncak', name: 'Puncak', region: 'Bogor', copy: { desktop: 'Weekend escape untuk keluarga dengan perjalanan private dan pilihan kelas kendaraan yang fleksibel.', mobile: 'Cisarua • Safari • Cibodas' }, highlights: ['Cisarua', 'Taman Safari', 'Cibodas'], image: '/images/editorial/destination-west-java.webp', recommendedVehicles: ['Family Comfort', 'SUV Journey'] },
+  { slug: 'bogor', name: 'Bogor', region: 'West Java', copy: { desktop: 'City escape, kuliner, dan perjalanan keluarga ke Bogor dan Sentul.', mobile: 'Sentul • Kebun Raya • Kuliner' }, highlights: ['Sentul', 'Kebun Raya', 'Kuliner'], image: '/images/editorial/destination-west-java.webp', recommendedVehicles: ['Family Comfort'] },
+  { slug: 'anyer', name: 'Anyer', region: 'Banten', copy: { desktop: 'Coastal trip bersama keluarga atau sahabat dengan ruang yang sesuai kebutuhan perjalanan.', mobile: 'Beach • Family • Weekend' }, highlights: ['Beach', 'Family', 'Weekend'], image: '/images/editorial/destination-west-java.webp', recommendedVehicles: ['Family Comfort', 'Group Mobility'] },
+  { slug: 'jakarta', name: 'Jakarta', region: 'DKI Jakarta', copy: { desktop: 'City tour, event, airport, dan aktivitas harian dalam satu layanan mobilitas.', mobile: 'City • Event • Airport' }, highlights: ['City Tour', 'Event', 'Airport'], image: '/images/editorial/fleet-premium-mobility.webp', recommendedVehicles: ['Economy City', 'Premium Executive'] },
+];
