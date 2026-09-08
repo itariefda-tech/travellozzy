@@ -30,7 +30,7 @@ void test('featured fleet and filters expose the required categories', () => {
 
 void test('every mapped fleet image exists in the public gallery', () => {
   const imagePaths = [...source.matchAll(/image: '(\/images\/fleet\/[^']+)'/g)].map((match) => match[1]);
-  assert.equal(imagePaths.length, 14);
+  assert.equal(imagePaths.length, 15);
   for (const imagePath of imagePaths) {
     assert.ok(existsSync(new URL(`../public${imagePath}`, import.meta.url)), `Missing ${imagePath}`);
   }

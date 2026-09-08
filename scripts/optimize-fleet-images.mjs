@@ -8,6 +8,7 @@ const outputDirectory = path.resolve('public/images/fleet');
 const outputNames = {
   'all-new_avanza.jpg': 'toyota-avanza-new.webp',
   'Alphard-gen4_hybrid.jpg': 'toyota-alphard-gen-4-hybrid.webp',
+  'denza.jpg': 'denza.webp',
   'fortuner_gr.jpg': 'toyota-fortuner-gr.webp',
   'Hiace_Premio_14Seat.jpg': 'toyota-hiace-premio-14-seat.webp',
   'hiace_premio.jpg': 'toyota-hiace-premio.webp',
