@@ -2,10 +2,10 @@
 
 ## Overall Status
 
-- Current Phase: Phase 11 — Final QA & Private Publication
-- Overall Progress: 96%
+- Current Phase: Complete — follow-up business content and browser QA noted
+- Overall Progress: 97%
 - Last Updated: 2026-09-09
-- Readiness: READY WITH NOTES (private deployment pending)
+- Readiness: READY WITH NOTES
 - Source of truth: `Travelozzy_README.md`, `Travelozzy_BLUEPRINT.md`, `Travelozzy_ARCHITECTURE.md`
 
 ## Status Rules
@@ -378,14 +378,14 @@ Run executable gates, preserve evidence, and publish the exact validated source 
 - [x] Run lint, strict TypeScript checking, unit tests, and static production build.
 - [x] Audit generated HTML, required anchor targets, crawl files, deployment assets, and Git whitespace.
 - [x] Register an owner-private Sites project and configure the canonical origin.
-- [ ] Commit and push the exact validated source to the Site source repository.
-- [ ] Package, save, deploy, and verify the private production version.
+- [x] Commit and push the exact validated source to the Site source repository.
+- [x] Package, save, deploy, and verify the private production version.
 
 ### Deliverables
 
 - `dist/client/index.html`, `dist/client/404.html`, static assets and crawl files
 - Final `ROADMAP.md`
-- Private Sites deployment (pending)
+- Private Sites deployment: `https://travelozzy.scorns-pace-6d.chatgpt.site`
 
 ### Verification / Evidence
 
@@ -397,7 +397,9 @@ Run executable gates, preserve evidence, and publish the exact validated source 
 - Static output inspection: PASS — `index.html`, `404.html`, `robots.txt`, `sitemap.xml`, responsive hero assets, canonical metadata, and required anchors are present.
 - `git diff --check`: PASS.
 - Browser E2E/component interaction: PENDING because the preview UI surface could not initialize.
-- Private production deployment: PENDING.
+- Commit/source push: PASS — commit `65513fbc32a02252e48aa568b8d3c16009059e64` pushed to the Site source branch.
+- Archive validation: PASS — normalized static archive contains hosting metadata, `index.html`, 404, crawl files, and optimized imagery.
+- Private production deployment: PASS — Sites deployment reached `succeeded` at `https://travelozzy.scorns-pace-6d.chatgpt.site`.
 
 ---
 
@@ -410,4 +412,4 @@ Run executable gates, preserve evidence, and publish the exact validated source 
 
 ## Next Step
 
-Complete the Node 22 final build, inspect crawl/output assets, commit the exact validated state, package it, and deploy the owner-private Site version.
+Replace placeholder business data and editorial imagery when verified inputs are available, then perform the pending browser/device/Lighthouse QA before a broader public launch.
