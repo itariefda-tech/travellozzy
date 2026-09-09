@@ -6,18 +6,18 @@ export function Header() {
   return (
     <header className="site-header">
       <div className="container-shell site-header__inner">
-        <a className="wordmark" href="#top" aria-label="TRAVELOZY — beranda">
+        <Link className="wordmark" href="/#top" aria-label="TRAVELOZY — beranda">
           TRAVELOZY
-        </a>
+        </Link>
         <nav className="site-nav" aria-label="Navigasi utama">
-          <a href="#services">Services</a>
+          <Link href="/#services">Services</Link>
           <Link href="/fleet">Fleet</Link>
-          <a href="#vacation">Vacation</a>
-          <a href="#event">Event</a>
-          <a href="#corporate">Corporate</a>
-          <a className="button-link button-link--gold" href="#booking">
+          <Link href="/#vacation">Vacation</Link>
+          <Link href="/#event">Event</Link>
+          <Link href="/#corporate">Corporate</Link>
+          <Link className="button-link button-link--gold" href="/#booking">
             Book Your Ride <ArrowUpRight size={16} aria-hidden="true" />
-          </a>
+          </Link>
         </nav>
         <MobileMenu />
       </div>

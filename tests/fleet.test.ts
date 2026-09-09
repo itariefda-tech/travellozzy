@@ -13,9 +13,10 @@ void test('real fleet inventory contains 18 unique vehicles with quote-only pric
 
 void test('featured fleet and filters expose the required categories', () => {
   assert.deepEqual(
-    [...source.matchAll(/'([a-z0-9-]+)',/g)].map((match) => match[1]).slice(-8),
+    [...source.matchAll(/'([a-z0-9-]+)',/g)].map((match) => match[1]).slice(-9),
     [
       'toyota-alphard-gen-4-hybrid',
+      'denza',
       'toyota-innova-zenix-q',
       'toyota-hiace-premio',
       'mercedes-benz-c300',
