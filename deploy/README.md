@@ -4,6 +4,18 @@ This project is a static Vinext export, so it is served directly by Nginx. Docke
 
 ## Initial VPS setup
 
+### Opsi A: Setup Otomatis di VPS (via `setup-vps.sh`)
+Login ke VPS via SSH, lalu jalankan:
+```bash
+curl -sSL https://raw.githubusercontent.com/itariefda-tech/travellozzy/main/deploy/setup-vps.sh | bash
+```
+Atau clone repo terlebih dahulu lalu jalankan skrip tersebut:
+```bash
+git clone https://github.com/itariefda-tech/travellozzy.git /tmp/travellozzy
+bash /tmp/travellozzy/deploy/setup-vps.sh
+```
+
+### Opsi B: Setup Manual Nginx
 Copy `deploy/nginx/travelozy.my.id.conf` to `/etc/nginx/sites-available/travelozy.my.id`, create a symbolic link in `/etc/nginx/sites-enabled`, then validate and reload Nginx.
 
 ## Standard release: push → promote → deploy
@@ -41,6 +53,6 @@ The deploy-only script builds and publishes the current checkout without changin
 
 ## DNS and TLS
 
-Cloudflare uses `lila.ns.cloudflare.com` and `mark.ns.cloudflare.com` for this zone. Proxied DNS records point `travelozy.my.id` and `www` to `51.222.30.28`.
+Cloudflare uses `lila.ns.cloudflare.com` and `mark.ns.cloudflare.com` for this zone. Proxied DNS records point `travelozy.my.id` and `www` to `51.79.204.126`.
 
 Let's Encrypt TLS is installed for both hostnames and renewed through `certbot.timer`. Keep Cloudflare SSL/TLS mode set to **Full (strict)**.

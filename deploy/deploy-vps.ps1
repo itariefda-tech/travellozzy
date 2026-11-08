@@ -1,13 +1,13 @@
 param(
-  [string]$HostName = '51.222.30.28',
-  [string]$UserName = 'ubuntu',
+  [string]$HostName = 'ovh',
+  [string]$UserName = '',
   [switch]$SkipBuild
 )
 
 $ErrorActionPreference = 'Stop'
 $releaseName = "travelozy-$((Get-Date).ToUniversalTime().ToString('yyyyMMddHHmmss'))"
 $archivePath = Join-Path $env:TEMP "$releaseName.tar.gz"
-$remoteTarget = "$UserName@$HostName"
+$remoteTarget = if ([string]::IsNullOrWhiteSpace($UserName)) { $HostName } else { "$UserName@$HostName" }
 
 if (-not $SkipBuild) {
   npm exec --yes --package=node@22.20.0 -- node node_modules/vinext/dist/cli.js build

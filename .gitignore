@@ -38,6 +38,7 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+powershell.cmd
 
 # Local media not used by the website build
 /content/*.mp3

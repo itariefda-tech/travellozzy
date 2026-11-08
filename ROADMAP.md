@@ -412,7 +412,7 @@ Run executable gates, preserve evidence, and publish the exact validated source 
 - Commit/source push: PASS — commit `65513fbc32a02252e48aa568b8d3c16009059e64` pushed to the Site source branch.
 - Archive validation: PASS — normalized static archive contains hosting metadata, `index.html`, 404, crawl files, and optimized imagery.
 - Private production deployment: PASS — Sites deployment reached `succeeded` at `https://travelozzy.scorns-pace-6d.chatgpt.site`.
-- VPS static release: PASS — release `travelozy-202609090230` is active behind Nginx on `51.222.30.28`; Cloudflare edge and origin checks for `/` and `/fleet` returned HTTP 200.
+- VPS static release: PASS — release `travelozy-202609090230` was on `51.222.30.28`; new VPS active on `51.79.204.126`. Cloudflare edge and origin checks for `/` and `/fleet` returned HTTP 200.
 - VPS Nginx routing: PASS — static HTML routes resolve through the `travelozy.my.id` server block.
 - Cloudflare DNS and public TLS: PASS — authoritative nameservers and proxied DNS are active; Cloudflare edge returns HTTP 301 and HTTPS 200 for the production hostname. Let's Encrypt covers the apex and `www` through 2026-12-07 with `certbot.timer` enabled.
 - Production SEO origin: PASS — canonical metadata, robots, sitemap, and environment example use `https://travelozy.my.id`.
