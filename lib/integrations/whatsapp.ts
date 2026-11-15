@@ -9,6 +9,20 @@ export type BookingInquiry = {
   phone: string;
 };
 
+export const DEFAULT_WHATSAPP_NUMBER = '6281298605977';
+
+export function getWhatsAppNumber(): string {
+  const configuredNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER?.replace(/\D/g, '');
+  return configuredNumber || DEFAULT_WHATSAPP_NUMBER;
+}
+
+export function formatWhatsAppNumber(phone = getWhatsAppNumber()): string {
+  if (phone.startsWith('62') && phone.length >= 11) {
+    return `+62 ${phone.slice(2, 5)}-${phone.slice(5, 9)}-${phone.slice(9)}`;
+  }
+  return phone;
+}
+
 export function buildBookingMessage(inquiry: BookingInquiry) {
   return [
     'Halo TRAVELOZY,',
@@ -29,8 +43,9 @@ export function buildBookingMessage(inquiry: BookingInquiry) {
   ].join('\n');
 }
 
-export function buildWhatsAppUrl(message: string) {
-  const configuredNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER?.replace(/\D/g, '');
-  const target = configuredNumber ? `https://wa.me/${configuredNumber}` : 'https://wa.me/';
+export function buildWhatsAppUrl(message?: string) {
+  const number = getWhatsAppNumber();
+  const target = `https://wa.me/${number}`;
+  if (!message) return target;
   return `${target}?text=${encodeURIComponent(message)}`;
 }

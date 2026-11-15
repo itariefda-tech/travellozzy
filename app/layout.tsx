@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Manrope } from 'next/font/google';
+import { FloatingWhatsApp } from '@/components/layout/FloatingWhatsApp';
 import './globals.css';
 
 const siteUrl =
@@ -50,6 +51,7 @@ export default function RootLayout({
     <html lang="id">
       <body className={`${inter.variable} ${manrope.variable}`}>
         {children}
+        <FloatingWhatsApp />
       </body>
     </html>
   );

@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { ArrowDownRight, MessageCircle } from 'lucide-react';
+import { buildWhatsAppUrl } from '@/lib/integrations/whatsapp';
 
 const journeyCategories = ['Daily', 'Airport', 'Vacation', 'Wedding', 'Corporate', 'Luxury'];
 const rotatingWords = ['Comfort', 'Luxury', 'Confidence', 'Style'];
@@ -140,7 +141,14 @@ export function HeroSection() {
         <p className="hero__copy hero__copy--mobile hero__reveal hero__reveal--copy">Armada reguler, premium, luxury, SUV, dan group.</p>
         <div className="hero__actions hero__reveal hero__reveal--actions">
           <a className="button-link button-link--gold" href="#booking">Book Your Ride <ArrowDownRight size={17} aria-hidden="true" /></a>
-          <a className="button-link button-link--outline-light" href="#contact"><MessageCircle size={17} aria-hidden="true" /> WhatsApp</a>
+          <a
+            className="button-link button-link--outline-light"
+            href={buildWhatsAppUrl('Halo TRAVELOZY, saya ingin informasi seputar rental mobil dan layanan perjalanan.')}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MessageCircle size={17} aria-hidden="true" /> WhatsApp
+          </a>
         </div>
         <ul className="hero__categories hero__reveal hero__reveal--categories" aria-label="Kategori perjalanan">
           {journeyCategories.map((category) => <li key={category}>{category}</li>)}

@@ -1,6 +1,11 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { buildBookingMessage, buildWhatsAppUrl } from '../lib/integrations/whatsapp.ts';
+import {
+  buildBookingMessage,
+  buildWhatsAppUrl,
+  formatWhatsAppNumber,
+  getWhatsAppNumber,
+} from '../lib/integrations/whatsapp.ts';
 
 const inquiry = {
   service: 'Airport Transfer',
@@ -25,8 +30,15 @@ void test('buildBookingMessage emits every required booking field', () => {
   assert.match(message, /Nomor WhatsApp: 081234567890/);
 });
 
-void test('buildWhatsAppUrl safely encodes inquiry text', () => {
+void test('buildWhatsAppUrl safely encodes inquiry text with default number', () => {
   const url = buildWhatsAppUrl('Halo TRAVELOZY\nAirport & Wedding');
   assert.ok(url.startsWith('https://wa.me/'));
+  assert.match(url, /6281298605977/);
   assert.match(url, /Halo%20TRAVELOZY%0AAirport%20%26%20Wedding/);
+});
+
+void test('getWhatsAppNumber and formatWhatsAppNumber return configured real number', () => {
+  assert.equal(getWhatsAppNumber(), '6281298605977');
+  assert.equal(formatWhatsAppNumber(), '+62 812-9860-5977');
+  assert.equal(buildWhatsAppUrl(), 'https://wa.me/6281298605977');
 });

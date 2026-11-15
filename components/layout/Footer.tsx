@@ -1,4 +1,5 @@
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, MessageCircle } from 'lucide-react';
+import { buildWhatsAppUrl, formatWhatsAppNumber } from '@/lib/integrations/whatsapp';
 
 const footerGroups = [
   { title: 'Services', links: ['Daily', 'Airport Transfer', 'Vacation', 'Wedding & Event', 'Luxury'] },
@@ -23,7 +24,15 @@ export function Footer() {
         <div className="footer-group">
           <h2>Start a journey</h2>
           <a className="footer-inquiry" href="#booking">Book Your Ride <ArrowUpRight size={17} /></a>
-          <p className="footer-note">Nomor WhatsApp dan social profile perlu dikonfigurasi sebelum publikasi bisnis.</p>
+          <a
+            className="footer-whatsapp"
+            href={buildWhatsAppUrl('Halo TRAVELOZY, saya ingin konsultasi perjalanan.')}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Chat WhatsApp ${formatWhatsAppNumber()}`}
+          >
+            <MessageCircle size={16} aria-hidden="true" /> {formatWhatsAppNumber()}
+          </a>
         </div>
       </div>
       <div className="container-shell footer-bottom"><span>© {new Date().getFullYear()} TRAVELOZY</span><span>Mobility &amp; Travel Service</span></div>

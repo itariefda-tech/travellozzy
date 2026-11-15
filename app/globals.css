@@ -750,6 +750,8 @@ section[id] {
 .footer-group ul { display: grid; gap: .3rem; margin: 0; padding: 0; list-style: none; }
 .footer-group a { font-size: .88rem; }
 .footer-inquiry { display: inline-flex; align-items: center; gap: .4rem; color: var(--color-brand-gold); font-family: var(--font-manrope); font-weight: 700; }
+.footer-whatsapp { display: inline-flex; align-items: center; gap: .45rem; margin-top: .6rem; color: #25D366; font-size: .88rem; font-weight: 700; text-decoration: none; transition: color .2s ease; }
+.footer-whatsapp:hover { color: #34e77a; }
 .footer-bottom { display: flex; justify-content: space-between; gap: 1rem; margin-top: 3rem; padding-top: 1rem; border-top: 1px solid rgb(248 249 250 / 10%); color: rgb(248 249 250 / 38%); font-size: .72rem; }
 
 .mobile-sticky { position: fixed; z-index: 45; left: .65rem; right: .65rem; bottom: calc(.65rem + env(safe-area-inset-bottom)); display: grid; grid-template-columns: .9fr 1.2fr; gap: .4rem; border: 1px solid rgb(248 249 250 / 13%); border-radius: 1rem; background: rgb(10 12 16 / 92%); padding: .4rem; box-shadow: 0 16px 45px rgb(0 0 0 / 35%); backdrop-filter: blur(14px); }
@@ -804,3 +806,117 @@ section[id] {
 .not-found h1 { max-width: 12ch; margin: .7rem 0; font-size: clamp(3rem, 9vw, 6rem); letter-spacing: -.06em; line-height: .96; }
 .not-found > p:not(.eyebrow) { max-width: 35rem; color: rgb(248 249 250 / 62%); }
 .not-found > div { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1rem; }
+
+/* Floating WhatsApp FAB */
+.floating-wa-wrapper {
+  position: fixed;
+  z-index: 50;
+  right: 1.75rem;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+
+.floating-wa-btn {
+  pointer-events: auto;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+  color: #ffffff;
+  box-shadow: 0 10px 25px -3px rgba(37, 211, 102, 0.45), 0 4px 10px -2px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+}
+
+.floating-wa-btn:hover {
+  transform: scale(1.08) translateY(-2px);
+  box-shadow: 0 16px 32px -4px rgba(37, 211, 102, 0.6), 0 6px 14px -2px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+.floating-wa-btn:active {
+  transform: scale(0.96);
+}
+
+.floating-wa-btn .floating-wa-icon {
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+}
+
+.floating-wa-ripple {
+  position: absolute;
+  inset: -3px;
+  border-radius: 9999px;
+  border: 2px solid rgba(37, 211, 102, 0.55);
+  animation: wa-pulse 2.8s infinite;
+  pointer-events: none;
+}
+
+@keyframes wa-pulse {
+  0% { transform: scale(0.95); opacity: 0.85; }
+  50% { transform: scale(1.22); opacity: 0; }
+  100% { transform: scale(0.95); opacity: 0; }
+}
+
+.floating-wa-label {
+  position: absolute;
+  right: calc(100% + 0.75rem);
+  white-space: nowrap;
+  background: rgba(10, 12, 16, 0.92);
+  color: #f8f9fa;
+  font-family: var(--font-manrope);
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.45rem 0.85rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(248, 249, 250, 0.15);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(12px);
+  opacity: 0;
+  transform: translateX(6px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.floating-wa-btn:hover .floating-wa-label {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Mobile View: ukuran disesuaikan lebih kecil dari desktop & posisi di atas sticky bar */
+@media (max-width: 47.99rem) {
+  .floating-wa-wrapper {
+    right: 0.95rem;
+    bottom: calc(5.2rem + env(safe-area-inset-bottom));
+  }
+
+  .floating-wa-btn {
+    width: 2.75rem;
+    height: 2.75rem;
+    box-shadow: 0 8px 18px -2px rgba(37, 211, 102, 0.45), 0 3px 8px -2px rgba(0, 0, 0, 0.25);
+  }
+
+  .floating-wa-btn .floating-wa-icon {
+    width: 1.45rem;
+    height: 1.45rem;
+  }
+
+  .floating-wa-label {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .floating-wa-ripple {
+    animation: none;
+    display: none;
+  }
+}
